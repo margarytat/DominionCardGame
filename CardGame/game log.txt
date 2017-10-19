@@ -1,0 +1,1619 @@
+Welcome to Dominion. Press Enter to start a game with a human and a bot. Press S for the simulator. Press anything else for more options. 
+
+Enter selected cards:
+Village,Woodcutter,Smithy,Laboratory,Market,Festival,Cellar,Chapel,Moat,Moneylender,Witch
+
+Starting game.
+----- TURN 1 -----
+CARD STACKS:
+Province: 8
+Duchy: 8
+Estate: 8
+Curse: 8
+Gold: 30
+Silver: 40
+Copper: 46
+Cellar: 10
+Chapel: 10
+Festival: 10
+Laboratory: 10
+Market: 10
+Moat: 10
+Moneylender: 10
+Smithy: 10
+Village: 10
+Witch: 10
+Woodcutter: 10
+
+Margaryta hand: 
+Estate: 1
+Copper: 4
+
+Margaryta has no actions in hand.
+
+1 B, 4 M : choose purchase from [Silver, Moat, Estate, Curse, Cellar, Smithy, Village, Woodcutter, Chapel, Copper, Moneylender]
+Sm
+Margaryta bought a Smithy
+
+CARD STACKS:
+Province: 8
+Duchy: 8
+Estate: 8
+Curse: 8
+Gold: 30
+Silver: 40
+Copper: 46
+Cellar: 10
+Chapel: 10
+Festival: 10
+Laboratory: 10
+Market: 10
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 10
+Witch: 10
+Woodcutter: 10
+
+Bot 2 hand: 
+Estate: 2
+Copper: 3
+
+Bot 2 has no actions in hand.
+
+Simulation results: 
+Woodcutter: ahv - 4.1228
+Silver: ahv - 4.0968
+Moat: ahv - 3.819
+Copper: ahv - 3.6316
+Cellar: ahv - 3.6292
+Village: ahv - 3.5068
+DECK_AS_IS: ahv - 3.4966
+Chapel: ahv - 2.0006
+
+Bot 2 bought a Woodcutter
+
+----- TURN 2 -----
+CARD STACKS:
+Province: 8
+Duchy: 8
+Estate: 8
+Curse: 8
+Gold: 30
+Silver: 40
+Copper: 46
+Cellar: 10
+Chapel: 10
+Festival: 10
+Laboratory: 10
+Market: 10
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 10
+Witch: 10
+Woodcutter: 9
+
+Margaryta hand: 
+Estate: 2
+Copper: 3
+
+Margaryta has no actions in hand.
+
+1 B, 3 M : choose purchase from [Silver, Moat, Estate, Curse, Cellar, Village, Woodcutter, Chapel, Copper]
+Si
+Margaryta bought a Silver
+
+CARD STACKS:
+Province: 8
+Duchy: 8
+Estate: 8
+Curse: 8
+Gold: 30
+Silver: 39
+Copper: 46
+Cellar: 10
+Chapel: 10
+Festival: 10
+Laboratory: 10
+Market: 10
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 10
+Witch: 10
+Woodcutter: 9
+
+Bot 2 hand: 
+Estate: 1
+Copper: 4
+
+Bot 2 has no actions in hand.
+
+Simulation results: 
+Silver: ahv - 4.5976
+Smithy: ahv - 4.4828
+Woodcutter: ahv - 4.2644
+Copper: ahv - 4.1778
+Cellar: ahv - 4.1566
+Village: ahv - 4.109
+DECK_AS_IS: ahv - 4.0804
+Moat: ahv - 4.006
+Chapel: ahv - 2.995
+Moneylender: ahv - 2.4266
+
+Bot 2 bought a Silver
+
+----- TURN 3 -----
+CARD STACKS:
+Province: 8
+Duchy: 8
+Estate: 8
+Curse: 8
+Gold: 30
+Silver: 38
+Copper: 46
+Cellar: 10
+Chapel: 10
+Festival: 10
+Laboratory: 10
+Market: 10
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 10
+Witch: 10
+Woodcutter: 9
+
+Margaryta hand: 
+Silver: 1
+Estate: 1
+Copper: 3
+
+Margaryta has no actions in hand.
+
+1 B, 5 M : choose purchase from [Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+Ma
+Margaryta bought a Market
+
+CARD STACKS:
+Province: 8
+Duchy: 8
+Estate: 8
+Curse: 8
+Gold: 30
+Silver: 38
+Copper: 46
+Cellar: 10
+Chapel: 10
+Festival: 10
+Laboratory: 10
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 10
+Witch: 10
+Woodcutter: 9
+
+Bot 2 hand: 
+Estate: 2
+Copper: 3
+
+Bot 2 has no actions in hand.
+
+Simulation results: 
+Silver: ahv - 5.0084
+Woodcutter: ahv - 4.745
+Cellar: ahv - 4.6194
+Moat: ahv - 4.6048
+DECK_AS_IS: ahv - 4.6004
+Copper: ahv - 4.5952
+Village: ahv - 4.5782
+Chapel: ahv - 3.014
+
+Bot 2 bought a Silver
+
+----- TURN 4 -----
+CARD STACKS:
+Province: 8
+Duchy: 8
+Estate: 8
+Curse: 8
+Gold: 30
+Silver: 37
+Copper: 46
+Cellar: 10
+Chapel: 10
+Festival: 10
+Laboratory: 10
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 10
+Witch: 10
+Woodcutter: 9
+
+Margaryta hand: 
+Estate: 2
+Copper: 3
+
+Margaryta has no actions in hand.
+
+1 B, 3 M : choose purchase from [Silver, Moat, Estate, Curse, Cellar, Village, Woodcutter, Chapel, Copper]
+Vi
+Margaryta bought a Village
+
+CARD STACKS:
+Province: 8
+Duchy: 8
+Estate: 8
+Curse: 8
+Gold: 30
+Silver: 37
+Copper: 46
+Cellar: 10
+Chapel: 10
+Festival: 10
+Laboratory: 10
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 9
+Witch: 10
+Woodcutter: 9
+
+Bot 2 hand: 
+Silver: 1
+Estate: 1
+Woodcutter: 1
+Copper: 2
+
+Bot 2 played a Woodcutter
+
+
+Bot 2: 0 A, 2 B, 2 M.
+Simulation results: 
+Gold: ahv - 5.693
+Smithy: ahv - 5.527
+Market: ahv - 5.383
+Silver: ahv - 5.3766
+Laboratory: ahv - 5.374
+Festival: ahv - 5.3262
+Moneylender: ahv - 5.2812
+Woodcutter: ahv - 5.1238
+Witch: ahv - 5.0602
+Moat: ahv - 5.0486
+Village: ahv - 5.016
+Cellar: ahv - 5.0084
+Copper: ahv - 5.0054
+Chapel: ahv - 4.9856
+DECK_AS_IS: ahv - 4.981
+
+Bot 2 bought a Gold
+
+Simulation results: 
+DECK_AS_IS: ahv - 5.7208
+Copper: ahv - 5.6368
+
+Bot 2 bought nothing
+
+----- TURN 5 -----
+CARD STACKS:
+Province: 8
+Duchy: 8
+Estate: 8
+Curse: 8
+Gold: 29
+Silver: 37
+Copper: 46
+Cellar: 10
+Chapel: 10
+Festival: 10
+Laboratory: 10
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 9
+Witch: 10
+Woodcutter: 9
+
+Margaryta hand: 
+Smithy: 1
+Village: 1
+Copper: 3
+
+1A: choose action from [Smithy, Village]
+V
+Margaryta played a Village
+
+Margaryta drew a Market
+
+Margaryta: 2 A, 1 B, 0 M.
+2A: choose action from [Smithy, Market]
+Sm
+Margaryta played a Smithy
+
+Margaryta drew an Estate
+Margaryta drew a Copper
+Margaryta drew a Copper
+Margaryta drew a Silver
+
+Margaryta: 1 A, 1 B, 0 M.
+1A: choose action from [Market]
+M
+Margaryta played a Market
+
+Margaryta drew an Estate
+
+Margaryta: 1 A, 2 B, 1 M.
+2 B, 8 M : choose purchase from [Gold, Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Province, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+Wi
+Margaryta bought a Witch
+
+1 B, 3 M : choose purchase from [Silver, Moat, Estate, Curse, Cellar, Village, Woodcutter, Chapel, Copper]
+bla
+The provided input doesn't match a card in the list. Try again.
+C
+The provided input is ambiguous and matches one of [Curse, Cellar, Chapel, Copper]. Try again.
+
+CARD STACKS:
+Province: 8
+Duchy: 8
+Estate: 8
+Curse: 8
+Gold: 29
+Silver: 37
+Copper: 46
+Cellar: 10
+Chapel: 10
+Festival: 10
+Laboratory: 10
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 9
+Witch: 9
+Woodcutter: 9
+
+Bot 2 hand: 
+Gold: 1
+Woodcutter: 1
+Copper: 3
+
+Bot 2 played a Woodcutter
+
+
+Bot 2: 0 A, 2 B, 2 M.
+Bot 2 bought a Province
+
+Simulation results: 
+DECK_AS_IS: ahv - 5.3572
+Copper: ahv - 5.3152
+
+Bot 2 bought nothing
+
+----- TURN 6 -----
+CARD STACKS:
+Province: 7
+Duchy: 8
+Estate: 8
+Curse: 8
+Gold: 29
+Silver: 37
+Copper: 46
+Cellar: 10
+Chapel: 10
+Festival: 10
+Laboratory: 10
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 9
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Estate: 2
+Copper: 3
+
+Margaryta has no actions in hand.
+
+1 B, 3 M : choose purchase from [Silver, Moat, Estate, Curse, Cellar, Village, Woodcutter, Chapel, Copper]
+Si
+Margaryta bought a Silver
+
+CARD STACKS:
+Province: 7
+Duchy: 8
+Estate: 8
+Curse: 8
+Gold: 29
+Silver: 36
+Copper: 46
+Cellar: 10
+Chapel: 10
+Festival: 10
+Laboratory: 10
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 9
+Witch: 9
+Woodcutter: 9
+
+Bot 2 hand: 
+Silver: 2
+Estate: 1
+Copper: 2
+
+Bot 2 has no actions in hand.
+
+Simulation results: 
+Chapel: ahv - 6.7692
+Moneylender: ahv - 5.9606
+Gold: ahv - 5.9482
+Smithy: ahv - 5.8944
+Laboratory: ahv - 5.6978
+Market: ahv - 5.6512
+Festival: ahv - 5.617
+Silver: ahv - 5.5694
+Woodcutter: ahv - 5.4584
+Witch: ahv - 5.4432
+Moat: ahv - 5.42
+Cellar: ahv - 5.3632
+Copper: ahv - 5.363
+DECK_AS_IS: ahv - 5.3486
+Village: ahv - 5.306
+
+Bot 2 bought a Chapel
+
+----- TURN 7 -----
+CARD STACKS:
+Province: 7
+Duchy: 8
+Estate: 8
+Curse: 8
+Gold: 29
+Silver: 36
+Copper: 46
+Cellar: 10
+Chapel: 9
+Festival: 10
+Laboratory: 10
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 9
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Silver: 1
+Estate: 1
+Copper: 2
+Witch: 1
+
+1A: choose action from [Witch]
+Wi
+Margaryta played a Witch
+
+Margaryta drew a Copper
+Margaryta drew a Copper
+
+Margaryta: 0 A, 1 B, 0 M.
+Bot 2 took a Curse from the table
+1 B, 6 M : choose purchase from [Gold, Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+Go
+Margaryta bought a Gold
+
+CARD STACKS:
+Province: 7
+Duchy: 8
+Estate: 8
+Curse: 7
+Gold: 28
+Silver: 36
+Copper: 46
+Cellar: 10
+Chapel: 9
+Festival: 10
+Laboratory: 10
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 9
+Witch: 9
+Woodcutter: 9
+
+Bot 2 hand: 
+Estate: 2
+Copper: 3
+
+Bot 2 has no actions in hand.
+
+Simulation results: 
+Silver: ahv - 7.3128
+Village: ahv - 7.2496
+DECK_AS_IS: ahv - 6.824
+Copper: ahv - 6.7784
+Cellar: ahv - 6.6256
+Moat: ahv - 6.292
+Woodcutter: ahv - 6.2904
+Chapel: ahv - 5.676
+
+Bot 2 bought a Silver
+
+----- TURN 8 -----
+CARD STACKS:
+Province: 7
+Duchy: 8
+Estate: 8
+Curse: 7
+Gold: 28
+Silver: 35
+Copper: 46
+Cellar: 10
+Chapel: 9
+Festival: 10
+Laboratory: 10
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 9
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Smithy: 1
+Village: 1
+Copper: 1
+Witch: 1
+Market: 1
+
+1A: choose action from [Smithy, Village, Witch, Market]
+Ma
+Margaryta played a Market
+
+Margaryta drew an Estate
+
+Margaryta: 1 A, 2 B, 1 M.
+1A: choose action from [Smithy, Village, Witch]
+Vi
+Margaryta played a Village
+
+Margaryta drew a Copper
+
+Margaryta: 2 A, 2 B, 1 M.
+2A: choose action from [Smithy, Witch]
+Wi
+Margaryta played a Witch
+
+Margaryta drew a Copper
+Margaryta drew a Gold
+
+Margaryta: 1 A, 2 B, 1 M.
+Bot 2 took a Curse from the table
+1A: choose action from [Smithy]
+Sm
+Margaryta played a Smithy
+
+Margaryta drew a Copper
+Margaryta drew a Copper
+Margaryta drew a Silver
+Margaryta drew a Copper
+
+Margaryta: 0 A, 2 B, 1 M.
+2 B, 12 M : choose purchase from [Gold, Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Province, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+la
+Margaryta bought a Laboratory
+
+1 B, 7 M : choose purchase from [Gold, Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+Go
+Margaryta bought a Gold
+
+CARD STACKS:
+Province: 7
+Duchy: 8
+Estate: 8
+Curse: 6
+Gold: 27
+Silver: 35
+Copper: 46
+Cellar: 10
+Chapel: 9
+Festival: 10
+Laboratory: 9
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 9
+Witch: 9
+Woodcutter: 9
+
+Bot 2 hand: 
+Gold: 1
+Estate: 1
+Copper: 2
+Province: 1
+
+Bot 2 has no actions in hand.
+
+Simulation results: 
+Laboratory: ahv - 8.1466
+Market: ahv - 7.9356
+Festival: ahv - 7.9098
+Silver: ahv - 7.7232
+Village: ahv - 7.6222
+Smithy: ahv - 7.4016
+DECK_AS_IS: ahv - 7.354
+Copper: ahv - 7.2784
+Moneylender: ahv - 7.232
+Cellar: ahv - 7.018
+Moat: ahv - 7.0076
+Witch: ahv - 7.001
+Woodcutter: ahv - 6.8908
+Chapel: ahv - 6.2562
+
+Bot 2 bought a Laboratory
+
+----- TURN 9 -----
+CARD STACKS:
+Province: 7
+Duchy: 8
+Estate: 8
+Curse: 6
+Gold: 27
+Silver: 35
+Copper: 46
+Cellar: 10
+Chapel: 9
+Festival: 10
+Laboratory: 8
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 9
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Silver: 1
+Estate: 2
+Copper: 2
+
+Margaryta has no actions in hand.
+
+1 B, 4 M : choose purchase from [Silver, Moat, Estate, Curse, Cellar, Smithy, Village, Woodcutter, Chapel, Copper, Moneylender]
+Ch
+Margaryta bought a Chapel
+
+CARD STACKS:
+Province: 7
+Duchy: 8
+Estate: 8
+Curse: 6
+Gold: 27
+Silver: 35
+Copper: 46
+Cellar: 10
+Chapel: 8
+Festival: 10
+Laboratory: 8
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 9
+Witch: 9
+Woodcutter: 9
+
+Bot 2 hand: 
+Silver: 2
+Chapel: 1
+Copper: 2
+
+Bot 2 played a Chapel
+
+Bot 2 trashed a Copper
+Bot 2 trashed a Copper
+Simulation results: 
+Village: ahv - 8.5736
+Silver: ahv - 8.4976
+DECK_AS_IS: ahv - 8.17
+Copper: ahv - 8.1392
+Cellar: ahv - 7.8236
+Moneylender: ahv - 7.7668
+Smithy: ahv - 7.758
+Moat: ahv - 7.559
+Woodcutter: ahv - 7.536
+Chapel: ahv - 6.8738
+
+Bot 2 bought a Village
+
+----- TURN 10 -----
+CARD STACKS:
+Province: 7
+Duchy: 8
+Estate: 8
+Curse: 6
+Gold: 27
+Silver: 35
+Copper: 46
+Cellar: 10
+Chapel: 8
+Festival: 10
+Laboratory: 8
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 9
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Gold: 1
+Silver: 1
+Village: 1
+Copper: 2
+
+1A: choose action from [Village]
+Vi
+Margaryta played a Village
+
+Margaryta drew a Market
+
+Margaryta: 2 A, 1 B, 0 M.
+2A: choose action from [Market]
+Ma
+Margaryta played a Market
+
+Margaryta drew a Copper
+
+Margaryta: 2 A, 2 B, 1 M.
+2 B, 9 M : choose purchase from [Gold, Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Province, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+Fe
+Margaryta bought a Festival
+
+1 B, 4 M : choose purchase from [Silver, Moat, Estate, Curse, Cellar, Smithy, Village, Woodcutter, Chapel, Copper, Moneylender]
+Sm
+Margaryta bought a Smithy
+
+CARD STACKS:
+Province: 7
+Duchy: 8
+Estate: 8
+Curse: 6
+Gold: 27
+Silver: 35
+Copper: 46
+Cellar: 10
+Chapel: 8
+Festival: 9
+Laboratory: 8
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Bot 2 hand: 
+Estate: 1
+Woodcutter: 1
+Copper: 2
+Province: 1
+
+Bot 2 played a Woodcutter
+
+
+Bot 2: 0 A, 2 B, 2 M.
+Simulation results: 
+Silver: ahv - 8.7856
+Village: ahv - 8.7236
+Moneylender: ahv - 8.7008
+Smithy: ahv - 8.5722
+Copper: ahv - 8.5712
+DECK_AS_IS: ahv - 8.5476
+Moat: ahv - 8.2782
+Cellar: ahv - 8.2678
+Woodcutter: ahv - 8.154
+Chapel: ahv - 7.2016
+
+Bot 2 bought a Silver
+
+Simulation results: 
+Copper: ahv - 8.7876
+DECK_AS_IS: ahv - 8.7734
+
+Bot 2 bought nothing
+
+----- TURN 11 -----
+CARD STACKS:
+Province: 7
+Duchy: 8
+Estate: 8
+Curse: 6
+Gold: 27
+Silver: 34
+Copper: 46
+Cellar: 10
+Chapel: 8
+Festival: 9
+Laboratory: 8
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Gold: 1
+Smithy: 1
+Laboratory: 1
+Copper: 2
+
+1A: choose action from [Smithy, Laboratory]
+La
+Margaryta played a Laboratory
+
+Margaryta drew a Witch
+Margaryta drew an Estate
+
+Margaryta: 1 A, 1 B, 0 M.
+1A: choose action from [Smithy, Witch]
+Wi
+Margaryta played a Witch
+
+Margaryta drew an Estate
+Margaryta drew a Copper
+
+Margaryta: 0 A, 1 B, 0 M.
+Bot 2 took a Curse from the table
+1 B, 6 M : choose purchase from [Gold, Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+Go
+Margaryta bought a Gold
+
+CARD STACKS:
+Province: 7
+Duchy: 8
+Estate: 8
+Curse: 5
+Gold: 26
+Silver: 34
+Copper: 46
+Cellar: 10
+Chapel: 8
+Festival: 9
+Laboratory: 8
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Bot 2 hand: 
+Silver: 1
+Gold: 1
+Curse: 1
+Village: 1
+Copper: 1
+
+Bot 2 played a Village
+
+Bot 2 drew a Silver
+
+Bot 2: 2 A, 1 B, 0 M.
+Bot 2 bought a Province
+
+----- TURN 12 -----
+CARD STACKS:
+Province: 6
+Duchy: 8
+Estate: 8
+Curse: 5
+Gold: 26
+Silver: 34
+Copper: 46
+Cellar: 10
+Chapel: 8
+Festival: 9
+Laboratory: 8
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Gold: 1
+Silver: 1
+Chapel: 1
+Copper: 1
+Market: 1
+
+1A: choose action from [Chapel, Market]
+Ma
+Margaryta played a Market
+
+Margaryta drew a Village
+
+Margaryta: 1 A, 2 B, 1 M.
+1A: choose action from [Village, Chapel]
+Vi
+Margaryta played a Village
+
+Margaryta drew an Estate
+
+Margaryta: 2 A, 2 B, 1 M.
+2A: choose action from [Chapel]
+Ch
+Margaryta played a Chapel
+
+Enter number of cards to trash from hand (0 - 4):
+2
+Choose one of [Gold, Silver, Estate, Copper] or enter nothing to choose nothing
+E
+Margaryta trashed an Estate
+Choose one of [Gold, Silver, Estate, Copper] or enter nothing to choose nothing
+C
+Margaryta trashed a Copper
+2 B, 6 M : choose purchase from [Gold, Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+Ma
+Margaryta bought a Market
+
+1 B, 1 M : choose purchase from [Curse, Copper]
+
+CARD STACKS:
+Province: 6
+Duchy: 8
+Estate: 8
+Curse: 5
+Gold: 26
+Silver: 34
+Copper: 46
+Cellar: 10
+Chapel: 8
+Festival: 9
+Laboratory: 8
+Market: 8
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Bot 2 hand: 
+Silver: 1
+Estate: 1
+Curse: 1
+Chapel: 1
+Laboratory: 1
+
+Bot 2 played a Laboratory
+
+Bot 2 drew a Copper
+Bot 2 drew a Copper
+
+Bot 2: 1 A, 1 B, 0 M.
+Bot 2 played a Chapel
+
+Bot 2 trashed a Curse
+Bot 2 trashed an Estate
+Bot 2 trashed a Copper
+Bot 2 trashed a Copper
+Simulation results: 
+Cellar: ahv - 7.787
+Copper: ahv - 7.7752
+DECK_AS_IS: ahv - 7.7536
+Moat: ahv - 7.677
+Chapel: ahv - 6.8186
+
+Bot 2 bought a Cellar
+
+----- TURN 13 -----
+CARD STACKS:
+Province: 6
+Duchy: 8
+Estate: 8
+Curse: 5
+Gold: 26
+Silver: 34
+Copper: 46
+Cellar: 9
+Chapel: 8
+Festival: 9
+Laboratory: 8
+Market: 8
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Silver: 1
+Smithy: 1
+Copper: 3
+
+1A: choose action from [Smithy]
+Sm
+Margaryta played a Smithy
+
+Margaryta drew a Festival
+Margaryta drew a Village
+Margaryta drew a Gold
+Margaryta drew a Gold
+
+Margaryta: 0 A, 1 B, 0 M.
+1 B, 11 M : choose purchase from [Gold, Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Province, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+Pro
+Margaryta bought a Province
+
+CARD STACKS:
+Province: 5
+Duchy: 8
+Estate: 8
+Curse: 5
+Gold: 26
+Silver: 34
+Copper: 46
+Cellar: 9
+Chapel: 8
+Festival: 9
+Laboratory: 8
+Market: 8
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Bot 2 hand: 
+Silver: 1
+Gold: 1
+Estate: 1
+Curse: 1
+Laboratory: 1
+
+Bot 2 played a Laboratory
+
+Bot 2 drew a Woodcutter
+Bot 2 drew a Copper
+
+Bot 2: 1 A, 1 B, 0 M.
+Bot 2 played a Woodcutter
+
+
+Bot 2: 0 A, 2 B, 2 M.
+Bot 2 bought a Province
+
+Simulation results: 
+DECK_AS_IS: ahv - 7.1676
+Copper: ahv - 7.1412
+
+Bot 2 bought nothing
+
+----- TURN 14 -----
+CARD STACKS:
+Province: 4
+Duchy: 8
+Estate: 8
+Curse: 5
+Gold: 26
+Silver: 34
+Copper: 46
+Cellar: 9
+Chapel: 8
+Festival: 9
+Laboratory: 8
+Market: 8
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Estate: 1
+Witch: 1
+Copper: 2
+Market: 1
+
+1A: choose action from [Witch, Market]
+Ma
+Margaryta played a Market
+
+Margaryta drew a Copper
+
+Margaryta: 1 A, 2 B, 1 M.
+1A: choose action from [Witch]
+Wi
+Margaryta played a Witch
+
+Margaryta drew a Chapel
+Margaryta drew a Silver
+
+Margaryta: 0 A, 2 B, 1 M.
+Bot 2 took a Curse from the table
+2 B, 6 M : choose purchase from [Gold, Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+La
+Margaryta bought a Laboratory
+
+1 B, 1 M : choose purchase from [Curse, Copper]
+
+CARD STACKS:
+Province: 4
+Duchy: 8
+Estate: 8
+Curse: 4
+Gold: 26
+Silver: 34
+Copper: 46
+Cellar: 9
+Chapel: 8
+Festival: 9
+Laboratory: 7
+Market: 8
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Bot 2 hand: 
+Silver: 1
+Chapel: 1
+Copper: 2
+Province: 1
+
+Bot 2 played a Chapel
+
+Bot 2 trashed a Copper
+Bot 2 trashed a Copper
+Simulation results: 
+DECK_AS_IS: ahv - 7.1966
+Copper: ahv - 7.1958
+Moat: ahv - 7.0616
+Cellar: ahv - 6.8726
+Chapel: ahv - 6.2348
+
+Bot 2 bought nothing
+
+----- TURN 15 -----
+CARD STACKS:
+Province: 4
+Duchy: 8
+Estate: 8
+Curse: 4
+Gold: 26
+Silver: 34
+Copper: 46
+Cellar: 9
+Chapel: 8
+Festival: 9
+Laboratory: 7
+Market: 8
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Gold: 1
+Estate: 1
+Smithy: 1
+Laboratory: 1
+Market: 1
+
+1A: choose action from [Smithy, Laboratory, Market]
+L
+Margaryta played a Laboratory
+
+Margaryta drew a Gold
+Margaryta drew a Market
+
+Margaryta: 1 A, 1 B, 0 M.
+1A: choose action from [Smithy, Market]
+M
+Margaryta played a Market
+
+Margaryta drew an Estate
+
+Margaryta: 1 A, 2 B, 1 M.
+1A: choose action from [Smithy, Market]
+M
+Margaryta played a Market
+
+Margaryta drew a Copper
+
+Margaryta: 1 A, 3 B, 2 M.
+1A: choose action from [Smithy]
+Sm
+Margaryta played a Smithy
+
+Margaryta drew a Witch
+Margaryta drew a Laboratory
+Margaryta drew a Silver
+Margaryta drew a Province
+
+Margaryta: 0 A, 3 B, 2 M.
+3 B, 11 M : choose purchase from [Gold, Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Province, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+Pro
+Margaryta bought a Province
+
+2 B, 3 M : choose purchase from [Silver, Moat, Estate, Curse, Cellar, Village, Woodcutter, Chapel, Copper]
+Ce
+Margaryta bought a Cellar
+
+1 B, 1 M : choose purchase from [Curse, Copper]
+
+CARD STACKS:
+Province: 3
+Duchy: 8
+Estate: 8
+Curse: 4
+Gold: 26
+Silver: 34
+Copper: 46
+Cellar: 8
+Chapel: 8
+Festival: 9
+Laboratory: 7
+Market: 8
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Bot 2 hand: 
+Silver: 2
+Curse: 1
+Cellar: 1
+Province: 1
+
+Bot 2 played a Cellar
+
+Bot 2 discarded a Curse
+Bot 2 discarded a Province
+Bot 2 drew an Estate
+Bot 2 drew a Village
+
+Bot 2 played a Village
+
+Bot 2 drew a Silver
+
+Bot 2: 2 A, 1 B, 0 M.
+Simulation results: 
+Laboratory: ahv - 7.9954
+Gold: ahv - 7.8548
+Smithy: ahv - 7.8444
+Market: ahv - 7.5898
+Moneylender: ahv - 7.4472
+Festival: ahv - 7.4338
+Silver: ahv - 7.3808
+Village: ahv - 7.2136
+Copper: ahv - 7.184
+DECK_AS_IS: ahv - 7.155
+Witch: ahv - 7.0386
+Woodcutter: ahv - 7.035
+Moat: ahv - 7.0186
+Cellar: ahv - 6.9568
+Chapel: ahv - 6.286
+
+Bot 2 bought a Laboratory
+
+----- TURN 16 -----
+CARD STACKS:
+Province: 3
+Duchy: 8
+Estate: 8
+Curse: 4
+Gold: 26
+Silver: 34
+Copper: 46
+Cellar: 8
+Chapel: 8
+Festival: 9
+Laboratory: 6
+Market: 8
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Gold: 1
+Festival: 1
+Copper: 3
+
+1A: choose action from [Festival]
+Fe
+Margaryta played a Festival
+
+
+Margaryta: 2 A, 2 B, 2 M.
+2 B, 8 M : choose purchase from [Gold, Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Province, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+Pro
+Margaryta bought a Province
+
+1 B, 0 M : choose purchase from [Curse, Copper]
+
+CARD STACKS:
+Province: 2
+Duchy: 8
+Estate: 8
+Curse: 4
+Gold: 26
+Silver: 34
+Copper: 46
+Cellar: 8
+Chapel: 8
+Festival: 9
+Laboratory: 6
+Market: 8
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Bot 2 hand: 
+Gold: 1
+Curse: 1
+Laboratory: 1
+Copper: 1
+Province: 1
+
+Bot 2 played a Laboratory
+
+Bot 2 drew a Silver
+Bot 2 drew a Curse
+
+Bot 2: 1 A, 1 B, 0 M.
+Simulation results: 
+Gold: ahv - 5.9696
+Moneylender: ahv - 5.6992
+Laboratory: ahv - 5.6638
+Smithy: ahv - 5.638
+Market: ahv - 5.6106
+Festival: ahv - 5.6016
+Silver: ahv - 5.5828
+Cellar: ahv - 5.5362
+DECK_AS_IS: ahv - 5.3406
+Woodcutter: ahv - 5.3242
+Copper: ahv - 5.3126
+Village: ahv - 5.3058
+Witch: ahv - 5.2554
+Moat: ahv - 5.173
+Chapel: ahv - 4.738
+
+Bot 2 bought a Gold
+
+----- TURN 17 -----
+CARD STACKS:
+Province: 2
+Duchy: 8
+Estate: 8
+Curse: 4
+Gold: 25
+Silver: 34
+Copper: 46
+Cellar: 8
+Chapel: 8
+Festival: 9
+Laboratory: 6
+Market: 8
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Smithy: 1
+Village: 1
+Chapel: 1
+Copper: 2
+
+1A: choose action from [Smithy, Village, Chapel]
+Vi
+Margaryta played a Village
+
+Margaryta drew a Silver
+
+Margaryta: 2 A, 1 B, 0 M.
+2A: choose action from [Smithy, Chapel]
+Sm
+Margaryta played a Smithy
+
+Margaryta drew a Gold
+Margaryta drew a Laboratory
+Margaryta drew a Cellar
+Margaryta drew an Estate
+
+Margaryta: 1 A, 1 B, 0 M.
+1A: choose action from [Cellar, Chapel, Laboratory]
+La
+Margaryta played a Laboratory
+
+Margaryta drew a Province
+Margaryta drew a Market
+
+Margaryta: 1 A, 1 B, 0 M.
+1A: choose action from [Cellar, Chapel, Market]
+Ma
+Margaryta played a Market
+
+Margaryta drew a Gold
+
+Margaryta: 1 A, 2 B, 1 M.
+1A: choose action from [Cellar, Chapel]
+Ce
+Margaryta played a Cellar
+
+Enter number of cards to discard from hand (0 - 8):
+4
+Choose one of [Silver, Gold, Estate, Chapel, Copper, Province] or enter nothing to choose nothing
+E
+Margaryta discarded an Estate
+Choose one of [Silver, Gold, Chapel, Copper, Province] or enter nothing to choose nothing
+Pr
+Margaryta discarded a Province
+Choose one of [Silver, Gold, Chapel, Copper] or enter nothing to choose nothing
+Co
+Margaryta discarded a Copper
+Choose one of [Silver, Gold, Chapel, Copper] or enter nothing to choose nothing
+Co
+Margaryta discarded a Copper
+Margaryta drew a Smithy
+Margaryta drew a Market
+Margaryta drew a Province
+Margaryta drew a Copper
+
+1A: choose action from [Smithy, Chapel, Market]
+Ma
+Margaryta played a Market
+
+Margaryta drew a Silver
+
+Margaryta: 1 A, 3 B, 2 M.
+1A: choose action from [Smithy, Chapel]
+Sm
+Margaryta played a Smithy
+
+Margaryta drew a Province
+Margaryta drew a Witch
+Margaryta drew an Estate
+Margaryta drew a Laboratory
+
+Margaryta: 0 A, 3 B, 2 M.
+3 B, 13 M : choose purchase from [Gold, Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Province, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+Pro
+Margaryta bought a Province
+
+2 B, 5 M : choose purchase from [Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+Du
+Margaryta bought a Duchy
+
+1 B, 0 M : choose purchase from [Curse, Copper]
+
+CARD STACKS:
+Province: 1
+Duchy: 7
+Estate: 8
+Curse: 4
+Gold: 25
+Silver: 34
+Copper: 46
+Cellar: 8
+Chapel: 8
+Festival: 9
+Laboratory: 6
+Market: 8
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Bot 2 hand: 
+Curse: 1
+Woodcutter: 1
+Chapel: 1
+Province: 2
+
+Bot 2 played a Woodcutter
+
+
+Bot 2: 0 A, 2 B, 2 M.
+Simulation results: 
+Cellar: ahv - 6.2184
+DECK_AS_IS: ahv - 6.0298
+Copper: ahv - 6.0078
+Moat: ahv - 5.8856
+Chapel: ahv - 5.4554
+
+Bot 2 bought a Cellar
+
+Simulation results: 
+Copper: ahv - 6.2432
+DECK_AS_IS: ahv - 6.1208
+
+Bot 2 bought nothing
+
+----- TURN 18 -----
+CARD STACKS:
+Province: 1
+Duchy: 7
+Estate: 8
+Curse: 4
+Gold: 25
+Silver: 34
+Copper: 46
+Cellar: 7
+Chapel: 8
+Festival: 9
+Laboratory: 6
+Market: 8
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Gold: 1
+Festival: 1
+Copper: 3
+
+1A: choose action from [Festival]
+Fe
+Margaryta played a Festival
+
+
+Margaryta: 2 A, 2 B, 2 M.
+2 B, 8 M : choose purchase from [Gold, Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Province, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+Pro
+Margaryta bought a Province
+
+1 B, 0 M : choose purchase from [Curse, Copper]
+
+Game over.
+Margaryta: 35
+Bot 2: 17
+Margaryta won

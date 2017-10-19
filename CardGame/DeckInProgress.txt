@@ -1,0 +1,31 @@
+Village,Smithy,Laboratory,Market,Festival,Cellar,Chapel,Moat,Moneylender,Witch
+
+
+* Cellar		Action	$2	+1 Action Discard any number of cards. +1 Card per card discarded.
+* Chapel		Action	$2	Trash up to 4 cards from your hand.
+* Moat	     Action – Reaction	$2	+2 Cards When another player plays an Attack card, you may reveal this from your hand. If you do, you are unaffected by that Attack.
+* Village		Action	$3	+1 Card; +2 Actions.
+* Woodcutter		Action	$3	+1 Buy; +$2.
+* Moneylender		Action	$4	Trash a Copper from your hand. If you do, +$3.
+* Smithy		Action	$4	+3 Cards.
+* Laboratory		Action	$5	+2 Cards; +1 Action.
+* Market		Action	$5	+1 Card; +1 Action; +1 Buy; +$1.
+* Festival		Action	$5	+2 Actions, +1 Buy; +$2.
+* Witch	        	Attack	$5	+2 Cards Each other player gains a Curse card.
+
+
+
+Harbinger		Action	$3	+1 Card; +1 Action Look through your discard pile. You may put a card from it onto your deck.
+Merchant		Action	$3	+1 Card; +1 Action The first time you play a Silver this turn, +1.
+Workshop		Action	$3	Gain a card costing up to $4.
+Bureaucrat	Action – Attack	$4	Gain a silver card; put it on top of your deck. Each other player reveals a Victory card from his hand and puts it on his deck (or reveals a hand with no Victory cards).
+Gardens			Victory	$4	Worth 1 Victory for every 10 cards in your deck (rounded down).
+Militia		Action – Attack	$4	+$2 Each other player discards down to 3 cards in his hand.
+Remodel			Action	$4	Trash a card from your hand. Gain a card costing up to $2 more than the trashed card.
+Throne Room		Action	$4	Choose an Action card in your hand. Play it twice.
+Bandit		Action-Attack	$5	Gain a cold. Each other player reveals the top 2 cards of their deck, trashes a revealed Treasure other than Copper, and discards the rest.
+Council Room		Action	$5	+4 Cards; +1 Buy Each other player draws a card.
+Library			Action	$5	Draw until you have 7 cards in hand. You may set aside any Action cards drawn this way, as you draw them; discard the set aside cards after you finish drawing.
+Mine			Action	$5	Trash a Treasure card from your hand. Gain a Treasure card costing up to $3 more; put it into your hand.
+Sentry			Action	$5	+1 Card; +1 Action Look @ the top 2 cards of your deck. Trash and/or discard any number of them. Put the rest back on top in any order.
+Artisan 		Action	$6	Gain a card to your hand costing up to $5.

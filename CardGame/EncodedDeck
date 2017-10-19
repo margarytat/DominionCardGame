@@ -1,0 +1,25 @@
+Cellar	Action	$2	+1 Action Discard any number of cards. +1 Card per card discarded.
+Chapel	Action	$2	Trash up to 4 cards from your hand.
+Moat	Action – Reaction	$2	+2 Cards When another player plays an Attack card, you may reveal this from your hand. If you do, you are unaffected by that Attack.
+Chancellor	Action	$3	+$2 You may immediately put your deck into your discard pile.
+Village	Action	$3	+1 Card; +2 Actions.
+Woodcutter	Action	$3	+1 Buy; +$2.
+Workshop	Action	$3	Gain a card costing up to $4.
+Bureaucrat	Action – Attack	$4	Gain a silver card; put it on top of your deck. Each other player reveals a Victory card from his hand and puts it on his deck (or reveals a hand with no Victory cards).
+Feast	Action	$4	Trash this card. Gain a card costing up to $5.
+Gardens	Victory	$4	Worth 1 Victory for every 10 cards in your deck (rounded down).
+Militia	Action – Attack	$4	+$2 Each other player discards down to 3 cards in his hand.
+Moneylender	Action	$4	Trash a Copper from your hand. If you do, +$3.
+Remodel	Action	$4	Trash a card from your hand. Gain a card costing up to $2 more than the trashed card.
+Smithy	Action	$4	+3 Cards.
+Spy	Action – Attack	$4	+1 Card; +1 Action Each player (including you) reveals the top card of his deck and either discards it or puts it back, your choice.
+Thief	Action – Attack	$4	Each other player reveals the top 2 cards of his deck. If they revealed any Treasure cards, they trash one of them that you choose. You may gain any or all of these trashed cards. They discard the other revealed cards.
+Throne Room	Action	$4	Choose an Action card in your hand. Play it twice.
+Council Room	Action	$5	+4 Cards; +1 Buy Each other player draws a card.
+Festival	Action	$5	+2 Actions, +1 Buy; +$2.
+Laboratory	Action	$5	+2 Cards; +1 Action.
+Library	Action	$5	Draw until you have 7 cards in hand. You may set aside any Action cards drawn this way, as you draw them; discard the set aside cards after you finish drawing.
+Market	Action	$5	+1 Card; +1 Action; +1 Buy; +$1.
+Mine	Action	$5	Trash a Treasure card from your hand. Gain a Treasure card costing up to $3 more; put it into your hand.
+Witch	Action – Attack	$5	+2 Cards Each other player gains a Curse card.
+Adventurer	Action	$6	Reveal cards from your deck until you reveal 2 Treasure cards. Put those Treasure cards in your hand and discard the other revealed cards.

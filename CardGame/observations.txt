@@ -1,0 +1,455 @@
+09/24/2017
+Deck:
+Village,Woodcutter,Smithy,Laboratory,Market,Festival,Cellar,Chapel,Moat,Moneylender,Witch
+
+
+Bot 2 hand: 
+Silver: 1
+Estate: 1
+Copper: 3
+Bot 2 has no actions in hand.
+Bot 2 bought a Chapel
+
+— why? The bot had 5 money. Seriously.
+
+09/24/2017
+When debugging: in CardTable, GetCopyOfChosenCards has 11 elements: [Village, Woodcutter, Smithy, Laboratory, Market, Festival, Cellar, Chapel, Moat, Moneylender, Witch, null, null, null, null].
+
+Just played two markets in a row in a hand where I started with 3 coppers, and was told in the buy phase that I have 3 buys and 4 money
+
+09/25/2017
+
+Bot 2 hand: 
+Silver: 1
+Estate: 2
+Copper: 2
+Bot 2 has no actions in hand.
+Bot 2 bought a Chapel
+
+— investigate why. seems suspicious.
+
+09/27/2017
+
+Bot 2 hand: 
+Estate: 1
+Smithy: 1
+Woodcutter: 1
+Laboratory: 1
+Province: 1
+
+Bot 2 played a Laboratory
+
+Bot 2 drew a Silver
+Bot 2 drew a Festival
+Bot 2: 1 A, 1 B, 0 M.
+Bot 2 played a Festival
+
+Bot 2: 2 A, 2 B, 2 M.
+Bot 2 played a Woodcutter
+
+Bot 2: 1 A, 3 B, 4 M.
+Bot 2 played a Smithy
+
+Bot 2 drew a Gold
+Bot 2 drew a Village
+Bot 2 drew a Silver
+Bot 2 drew a Copper
+Bot 2: 0 A, 3 B, 4 M.
+Bot 2 bought a Duchy
+
+Simulation results: 
+Gold: ahv - 8.2786
+Laboratory: ahv - 8.1744
+Cellar: ahv - 8.1428
+Smithy: ahv - 8.0674
+Festival: ahv - 7.949
+Market: ahv - 7.9326
+Village: ahv - 7.8482
+Silver: ahv - 7.7658
+Moneylender: ahv - 7.7474
+NO_BUY: ahv - 7.6578
+Copper: ahv - 7.5952
+Moat: ahv - 7.4652
+Woodcutter: ahv - 7.4188
+Witch: ahv - 7.4042
+Chapel: ahv - 6.8254
+
+Bot 2 bought a Gold
+
+Simulation results: 
+NO_BUY: ahv - 8.2836
+Copper: ahv - 8.217
+
+Bot 2 bought nothing
+
+
+Observation 2: 
+
+Open Declarationjavax.swing.table.TableColumn
+
+A TableColumn represents all the attributes of a column in a JTable, such as width, resizability, minimum and maximum width. In addition, the TableColumn provides slots for a renderer and an editor that can be used to display and edit the values in this column.
+
+It is also possible to specify renderers and editors on a per type basis rather than a per column basis - see the setDefaultRenderer method in the JTable class. This default mechanism is only used when the renderer (or editor) in the TableColumn is null.
+
+The TableColumn stores the link between the columns in the JTable and the columns in the TableModel. The modelIndex is the column in the TableModel, which will be queried for the data values for the cells in this column. As the column moves around in the view this modelIndex does not change.
+
+Note: Some implementations may assume that all TableColumnModels are unique, therefore we would recommend that the same TableColumn instance not be added more than once to a TableColumnModel. To show TableColumns with the same column of data from the model, create a new instance with the same modelIndex.
+
+****************************************
+09/30/2017
+Fix things in the following:
+- bot’s name should be Bot 1
+- extra line after playing card
+- sort how the hand is printed
+
+Bot 2 hand: 
+Silver: 1
+Estate: 1
+Woodcutter: 1
+Copper: 2
+
+Bot 2 played a Woodcutter
+
+
+Bot 2: 0 A, 2 B, 2 M.
+Simulation results: 
+Gold: ahv - 5.693
+Smithy: ahv - 5.527
+Market: ahv - 5.383
+Silver: ahv - 5.3766
+Laboratory: ahv - 5.374
+Festival: ahv - 5.3262
+Moneylender: ahv - 5.2812
+Woodcutter: ahv - 5.1238
+Witch: ahv - 5.0602
+Moat: ahv - 5.0486
+Village: ahv - 5.016
+Cellar: ahv - 5.0084
+Copper: ahv - 5.0054
+Chapel: ahv - 4.9856
+DECK_AS_IS: ahv - 4.981
+
+Bot 2 bought a Gold
+
+Usability:
+when asking for card to buy, add “press Enter to buy nothing”
+
+Interesting purchase in turn 6 of the same game as above:
+Bot 2 hand: 
+Silver: 2
+Estate: 1
+Copper: 2
+
+Bot 2 has no actions in hand.
+
+Simulation results: 
+Chapel: ahv - 6.7692
+Moneylender: ahv - 5.9606
+Gold: ahv - 5.9482
+Smithy: ahv - 5.8944
+Laboratory: ahv - 5.6978
+Market: ahv - 5.6512
+Festival: ahv - 5.617
+Silver: ahv - 5.5694
+Woodcutter: ahv - 5.4584
+Witch: ahv - 5.4432
+Moat: ahv - 5.42
+Cellar: ahv - 5.3632
+Copper: ahv - 5.363
+DECK_AS_IS: ahv - 5.3486
+Village: ahv - 5.306
+
+Bot 2 bought a Chapel
+
+Chapel is a great thing to buy for the bot given its deck now, but how does it result in a higher hand money value? what is the bot’s deck? Need to add deck printout method for the human to be able to invoke during her turns
+
+Same game, turn 10.
+It’s interesting to observe the bot. Choosing a card that results in the highest hand value ends up being a bit more reactive than proactive, but quite reasonable. It does result in cards that work well with the existing deck. In turn 9 below, the bot finally gets an action card with extra actions.
+
+Bot 2 hand: 
+Silver: 2
+Chapel: 1
+Copper: 2
+
+Bot 2 played a Chapel
+
+Bot 2 trashed a Copper
+Bot 2 trashed a Copper
+Simulation results: 
+Village: ahv - 8.5736
+Silver: ahv - 8.4976
+DECK_AS_IS: ahv - 8.17
+Copper: ahv - 8.1392
+Cellar: ahv - 7.8236
+Moneylender: ahv - 7.7668
+Smithy: ahv - 7.758
+Moat: ahv - 7.559
+Woodcutter: ahv - 7.536
+Chapel: ahv - 6.8738
+
+Bot 2 bought a Village
+
+More
+
+----- TURN 11 -----
+CARD STACKS:
+Province: 7
+Duchy: 8
+Estate: 8
+Curse: 6
+Gold: 27
+Silver: 34
+Copper: 46
+Cellar: 10
+Chapel: 8
+Festival: 9
+Laboratory: 8
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Gold: 1
+Smithy: 1
+Laboratory: 1
+Copper: 2
+
+1A: choose action from [Smithy, Laboratory]
+La
+Margaryta played a Laboratory
+
+Margaryta drew a Witch
+Margaryta drew an Estate
+
+Margaryta: 1 A, 1 B, 0 M.
+1A: choose action from [Smithy, Witch]
+Wi
+Margaryta played a Witch
+
+Margaryta drew an Estate
+Margaryta drew a Copper
+
+Margaryta: 0 A, 1 B, 0 M.
+Bot 2 took a Curse from the table
+
+———notes: the two last lines should be switched in order.————
+
+usability: when playing chapel, the player’s hand should be printed out before asking her for number of cards to trash
+
+Bug below in playing chapel — I only have one estate in hand, yet it’s still in my list of options after being trashed
+----- TURN 12 -----
+CARD STACKS:
+Province: 6
+Duchy: 8
+Estate: 8
+Curse: 5
+Gold: 26
+Silver: 34
+Copper: 46
+Cellar: 10
+Chapel: 8
+Festival: 9
+Laboratory: 8
+Market: 9
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Gold: 1
+Silver: 1
+Chapel: 1
+Copper: 1
+Market: 1
+
+1A: choose action from [Chapel, Market]
+Ma
+Margaryta played a Market
+
+Margaryta drew a Village
+
+Margaryta: 1 A, 2 B, 1 M.
+1A: choose action from [Village, Chapel]
+Vi
+Margaryta played a Village
+
+Margaryta drew an Estate
+
+Margaryta: 2 A, 2 B, 1 M.
+2A: choose action from [Chapel]
+Ch
+Margaryta played a Chapel
+
+Enter number of cards to trash from hand (0 - 4):
+2
+Choose one of [Gold, Silver, Estate, Copper] or enter nothing to choose nothing
+E
+Margaryta trashed an Estate
+Choose one of [Gold, Silver, Estate, Copper] or enter nothing to choose nothing
+C
+Margaryta trashed a Copper
+
+******************
+
+Formatting in the following, need extra line before “simulation results”
+
+Bot 2 hand: 
+Silver: 1
+Estate: 1
+Curse: 1
+Chapel: 1
+Laboratory: 1
+
+Bot 2 played a Laboratory
+
+Bot 2 drew a Copper
+Bot 2 drew a Copper
+
+Bot 2: 1 A, 1 B, 0 M.
+Bot 2 played a Chapel
+
+Bot 2 trashed a Curse
+Bot 2 trashed an Estate
+Bot 2 trashed a Copper
+Bot 2 trashed a Copper
+Simulation results: 
+Cellar: ahv - 7.787
+Copper: ahv - 7.7752
+DECK_AS_IS: ahv - 7.7536
+Moat: ahv - 7.677
+Chapel: ahv - 6.8186
+
+Bot 2 bought a Cellar
+
+***************** at the end of my turn below, it should say that I bought nothing*****
+at the beginning of each player’s turn, her victory points should be printed out.
+
+----- TURN 15 -----
+CARD STACKS:
+Province: 4
+Duchy: 8
+Estate: 8
+Curse: 4
+Gold: 26
+Silver: 34
+Copper: 46
+Cellar: 9
+Chapel: 8
+Festival: 9
+Laboratory: 7
+Market: 8
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Margaryta hand: 
+Gold: 1
+Estate: 1
+Smithy: 1
+Laboratory: 1
+Market: 1
+
+1A: choose action from [Smithy, Laboratory, Market]
+L
+Margaryta played a Laboratory
+
+Margaryta drew a Gold
+Margaryta drew a Market
+
+Margaryta: 1 A, 1 B, 0 M.
+1A: choose action from [Smithy, Market]
+M
+Margaryta played a Market
+
+Margaryta drew an Estate
+
+Margaryta: 1 A, 2 B, 1 M.
+1A: choose action from [Smithy, Market]
+M
+Margaryta played a Market
+
+Margaryta drew a Copper
+
+Margaryta: 1 A, 3 B, 2 M.
+1A: choose action from [Smithy]
+Sm
+Margaryta played a Smithy
+
+Margaryta drew a Witch
+Margaryta drew a Laboratory
+Margaryta drew a Silver
+Margaryta drew a Province
+
+Margaryta: 0 A, 3 B, 2 M.
+3 B, 11 M : choose purchase from [Gold, Festival, Estate, Cellar, Smithy, Village, Woodcutter, Chapel, Laboratory, Market, Province, Silver, Moat, Curse, Duchy, Copper, Moneylender, Witch]
+Pro
+Margaryta bought a Province
+
+2 B, 3 M : choose purchase from [Silver, Moat, Estate, Curse, Cellar, Village, Woodcutter, Chapel, Copper]
+Ce
+Margaryta bought a Cellar
+
+1 B, 1 M : choose purchase from [Curse, Copper]
+
+CARD STACKS:
+Province: 3
+Duchy: 8
+
+*************** Definitely need to print out the hand when playing cellar!
+
+Bot’s turn 17 below. It should have bought a duchy. Current code only considers own and others’ victory points when it’s possible to buy a province with the current hand. Victory cards should start to be considered at least when there’s one province left and maybe when there are two provinces left or two empty stacks in the deck
+
+CARD STACKS:
+Province: 1
+Duchy: 7
+Estate: 8
+Curse: 4
+Gold: 25
+Silver: 34
+Copper: 46
+Cellar: 8
+Chapel: 8
+Festival: 9
+Laboratory: 6
+Market: 8
+Moat: 10
+Moneylender: 10
+Smithy: 8
+Village: 8
+Witch: 9
+Woodcutter: 9
+
+Bot 2 hand: 
+Curse: 1
+Woodcutter: 1
+Chapel: 1
+Province: 2
+
+Bot 2 played a Woodcutter
+
+
+Bot 2: 0 A, 2 B, 2 M.
+Simulation results: 
+Cellar: ahv - 6.2184
+DECK_AS_IS: ahv - 6.0298
+Copper: ahv - 6.0078
+Moat: ahv - 5.8856
+Chapel: ahv - 5.4554
+
+Bot 2 bought a Cellar
+
+Simulation results: 
+Copper: ahv - 6.2432
+DECK_AS_IS: ahv - 6.1208
+
+Bot 2 bought nothing
